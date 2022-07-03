@@ -38,12 +38,14 @@ modules:
     build-commands:
       - pip3 install --no-deps --no-use-pep517 --prefix=$FLATPAK_DEST .
       - install -Dm644 jdAnimatedImageEditor/Icon.svg $FLATPAK_DEST/share/icons/hicolor/scalable/apps/$FLATPAK_ID.svg
-      - install -Dm644 deploy/com.gitlab.JakobDev.jdAnimatedImageEditor.desktop -t $FLATPAK_DEST/share/applications
-      - install -Dm644 deploy/com.gitlab.JakobDev.jdAnimatedImageEditor.metainfo.xml -t $FLATPAK_DEST/share/metainfo
+      - install -Dm644 deploy/com.gitlab.JakobDev.jdAnimatedImageEditor.desktop -t
+        $FLATPAK_DEST/share/applications
+      - install -Dm644 deploy/com.gitlab.JakobDev.jdAnimatedImageEditor.metainfo.xml
+        -t $FLATPAK_DEST/share/metainfo
     sources:
       - type: git
         url: https://gitlab.com/JakobDev/jdAnimatedImageEditor.git
-        tag: "1.0"
-        commit: 43a67c7b67ce20831d6a0492e38ccc500e3315c9
+        tag: '1.1'
+        commit: b6e72086ed1fd91cf6055fe7955f9101db195596
         x-checker-data:
-            type: git
+          type: git
