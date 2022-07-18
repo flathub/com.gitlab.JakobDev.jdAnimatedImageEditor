@@ -47,7 +47,7 @@ modules:
     sources:
       - type: git
         url: https://gitlab.com/JakobDev/jdAnimatedImageEditor.git
-        tag: '1.2'
-        commit: 077830dec7e20532fcd5f91d83111310487104f4
+        tag: '1.3'
+        commit: 655c471161349c0f5bafa853c8a3f78a48b52077
         x-checker-data:
           type: git
