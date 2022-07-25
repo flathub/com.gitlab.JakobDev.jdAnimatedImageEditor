@@ -30,8 +30,13 @@ modules:
       - --disable-ffplay
     sources:
       - type: archive
-        url: https://ffmpeg.org/releases/ffmpeg-5.0.1.tar.xz
-        sha256: ef2efae259ce80a240de48ec85ecb062cecca26e4352ffb3fda562c21a93007b
+        url: https://ffmpeg.org/releases/ffmpeg-5.1.tar.gz
+        sha256: c0b2ec290abd5ad31b5e0a8c455c34f90306ecd2ede6ace5db5ca3a07f3b842f
+        x-checker-data:
+          type: anitya
+          project-id: 5405
+          stable-only: true
+          url-template: https://ffmpeg.org/releases/ffmpeg-$version.tar.gz
     cleanup:
       - /share/ffmpeg/examples
 
