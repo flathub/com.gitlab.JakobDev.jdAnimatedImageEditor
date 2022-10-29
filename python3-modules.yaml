@@ -22,8 +22,8 @@ modules:
           packagetype: bdist_wheel
           type: pypi
       - type: file
-        url: https://files.pythonhosted.org/packages/db/51/a507c856293ab05cdc1db77ff4bc1268ddd39f29e7dc4919aa497f0adbec/charset_normalizer-2.1.1-py3-none-any.whl
-        sha256: 83e9a75d1911279afd89352c68b45348559d1fc0506b054b346651b5e7fee29f
+        url: https://files.pythonhosted.org/packages/ff/57/478cbcaf37e1b5f558014734da6921390ba40491d904006289ca49191861/charset_normalizer-3.0.0-py3-none-any.whl
+        sha256: c2a896d961d1e2a035b10f85c71ea49e3837ff79e3d30d6d3304a12172019566
         x-checker-data:
           name: charset_normalizer
           packagetype: bdist_wheel
@@ -52,8 +52,8 @@ modules:
         --prefix=${FLATPAK_DEST} "pillow" --no-build-isolation
     sources:
       - type: file
-        url: https://files.pythonhosted.org/packages/8c/92/2975b464d9926dc667020ed1abfa6276e68c3571dcb77e43347e15ee9eed/Pillow-9.2.0.tar.gz
-        sha256: 75e636fd3e0fb872693f23ccb8a5ff2cd578801251f3a4f6854c6a5d437d3c04
+        url: https://files.pythonhosted.org/packages/16/11/da8d395299ca166aa56d9436e26fe8440e5443471de16ccd9a1d06f5993a/Pillow-9.3.0.tar.gz
+        sha256: c935a22a557a560108d780f9a0fc426dd7459940dc54faa49d83249c8d3e760f
         x-checker-data:
           name: Pillow
           type: pypi
